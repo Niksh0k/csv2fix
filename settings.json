@@ -1,0 +1,37 @@
+{
+    "original_date_format": "%Y/%m/%d",
+    "columns": {
+        "system_date": {
+            "length": 8,
+            "type": "date"
+        },
+        "customer_id": {
+            "length": 10,
+            "type": "digits"
+        },
+        "last_name": {
+            "length": 15,
+            "type": "full"
+        },
+        "first_name": {
+            "length": 15,
+            "type": "full"
+        },
+        "last_name_kana": {
+            "length": 15,
+            "type": "full"
+        },
+        "first_name_kana": {
+            "length": 15,
+            "type": "full"
+        },
+        "gender": {
+            "length": 1,
+            "type": "digits"
+        },
+        "email": {
+            "length": 80,
+            "type": "half"
+        }
+    }
+}
